@@ -13,6 +13,21 @@ final class SecondMVCViewController: UIViewController {
     var model: SecondMVCModelInput!
     lazy var contentView: SecondMVCViewInput = { return view as! SecondMVCViewInput }()
     
+    override func loadView() {
+        super.loadView()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
 }
 
 // MARK: - SecondMVCModelOutput
