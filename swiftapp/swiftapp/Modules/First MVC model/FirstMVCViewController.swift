@@ -10,6 +10,11 @@ import UIKit
 
 final class FirstMVCViewController: UIViewController {
     
+    
+    @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet weak var field: UITextField!
+    
     var model: FirstMVCModelInput!
     lazy var contentView: FirstMVCViewInput = { return view as! FirstMVCViewInput }()
     
@@ -19,6 +24,7 @@ final class FirstMVCViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .orange
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -27,6 +33,9 @@ final class FirstMVCViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+    }
+    
+    @IBAction func action(_ sender: Any) {
     }
 }
 
