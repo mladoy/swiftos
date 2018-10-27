@@ -10,6 +10,9 @@ import UIKit
 
 final class SecondMVCViewController: UIViewController {
     
+    @IBOutlet weak var response: UILabel!
+    
+    
     var model: SecondMVCModelInput!
     lazy var contentView: SecondMVCViewInput = { return view as! SecondMVCViewInput }()
     
@@ -25,8 +28,9 @@ final class SecondMVCViewController: UIViewController {
         super.viewWillAppear(animated)
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewDidAppear(_ animated: Bool)
+    {
+        response.text = comment
     }
 }
 

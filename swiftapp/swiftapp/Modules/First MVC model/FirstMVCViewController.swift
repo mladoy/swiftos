@@ -8,12 +8,15 @@
 
 import UIKit
 
+var comment = ""
+
 final class FirstMVCViewController: UIViewController {
     
     
     @IBOutlet weak var label: UILabel!
     
     @IBOutlet weak var field: UITextField!
+    
     
     var model: FirstMVCModelInput!
     lazy var contentView: FirstMVCViewInput = { return view as! FirstMVCViewInput }()
@@ -35,7 +38,20 @@ final class FirstMVCViewController: UIViewController {
         super.viewDidAppear(animated)
     }
     
-    @IBAction func action(_ sender: Any) {
+    @IBAction func action(_ sender: Any)
+    {
+
+        if (field.text != "") {
+        } else {
+            let alert = UIAlertController(title: "Error", message: "Empty comment", preferredStyle: .alert)
+            let action = UIAlertAction(title: "Ok", style: .cancel) { (action) in
+                
+            }
+            alert.addAction(action)
+            self.present(alert, animated: true, completion: nil)
+        }
+        comment = field.text!
+        performSegue(withIdentifier: "showComment", sender: self)
     }
 }
 
