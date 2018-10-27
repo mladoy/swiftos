@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		C126AC0C2183476000BEF65C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC0B2183476000BEF65C /* AppDelegate.swift */; };
-		C126AC0E2183476000BEF65C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC0D2183476000BEF65C /* ViewController.swift */; };
 		C126AC112183476000BEF65C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C126AC0F2183476000BEF65C /* Main.storyboard */; };
 		C126AC132183476100BEF65C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C126AC122183476100BEF65C /* Assets.xcassets */; };
 		C126AC162183476100BEF65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C126AC142183476100BEF65C /* LaunchScreen.storyboard */; };
+		C126AC5B2183517300BEF65C /* FirstMVCModelOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC532183517300BEF65C /* FirstMVCModelOutput.swift */; };
+		C126AC5C2183517300BEF65C /* FirstMVCViewControllerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC542183517300BEF65C /* FirstMVCViewControllerInput.swift */; };
+		C126AC5D2183517300BEF65C /* FirstMVCModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC552183517300BEF65C /* FirstMVCModuleInitializer.swift */; };
+		C126AC5E2183517300BEF65C /* FirstMVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC562183517300BEF65C /* FirstMVCViewController.swift */; };
+		C126AC5F2183517300BEF65C /* FirstMVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC572183517300BEF65C /* FirstMVCView.swift */; };
+		C126AC602183517300BEF65C /* FirstMVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC582183517300BEF65C /* FirstMVCModel.swift */; };
+		C126AC612183517300BEF65C /* FirstMVCModelInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC592183517300BEF65C /* FirstMVCModelInput.swift */; };
+		C126AC622183517300BEF65C /* FirstMVCModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC5A2183517300BEF65C /* FirstMVCModuleConfigurator.swift */; };
+		C126AC6C218351D700BEF65C /* SecondMVCModelOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC64218351D700BEF65C /* SecondMVCModelOutput.swift */; };
+		C126AC6D218351D700BEF65C /* SecondMVCViewControllerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC65218351D700BEF65C /* SecondMVCViewControllerInput.swift */; };
+		C126AC6E218351D700BEF65C /* SecondMVCModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC66218351D700BEF65C /* SecondMVCModuleInitializer.swift */; };
+		C126AC6F218351D700BEF65C /* SecondMVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC67218351D700BEF65C /* SecondMVCViewController.swift */; };
+		C126AC70218351D700BEF65C /* SecondMVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC68218351D700BEF65C /* SecondMVCView.swift */; };
+		C126AC71218351D700BEF65C /* SecondMVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC69218351D700BEF65C /* SecondMVCModel.swift */; };
+		C126AC72218351D700BEF65C /* SecondMVCModelInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC6A218351D700BEF65C /* SecondMVCModelInput.swift */; };
+		C126AC73218351D700BEF65C /* SecondMVCModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126AC6B218351D700BEF65C /* SecondMVCModuleConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C126AC082183476000BEF65C /* swiftapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C126AC0B2183476000BEF65C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C126AC0D2183476000BEF65C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C126AC102183476000BEF65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C126AC122183476100BEF65C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C126AC152183476100BEF65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C126AC172183476100BEF65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C126AC532183517300BEF65C /* FirstMVCModelOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMVCModelOutput.swift; sourceTree = "<group>"; };
+		C126AC542183517300BEF65C /* FirstMVCViewControllerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMVCViewControllerInput.swift; sourceTree = "<group>"; };
+		C126AC552183517300BEF65C /* FirstMVCModuleInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMVCModuleInitializer.swift; sourceTree = "<group>"; };
+		C126AC562183517300BEF65C /* FirstMVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMVCViewController.swift; sourceTree = "<group>"; };
+		C126AC572183517300BEF65C /* FirstMVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMVCView.swift; sourceTree = "<group>"; };
+		C126AC582183517300BEF65C /* FirstMVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMVCModel.swift; sourceTree = "<group>"; };
+		C126AC592183517300BEF65C /* FirstMVCModelInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMVCModelInput.swift; sourceTree = "<group>"; };
+		C126AC5A2183517300BEF65C /* FirstMVCModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMVCModuleConfigurator.swift; sourceTree = "<group>"; };
+		C126AC64218351D700BEF65C /* SecondMVCModelOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMVCModelOutput.swift; sourceTree = "<group>"; };
+		C126AC65218351D700BEF65C /* SecondMVCViewControllerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMVCViewControllerInput.swift; sourceTree = "<group>"; };
+		C126AC66218351D700BEF65C /* SecondMVCModuleInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMVCModuleInitializer.swift; sourceTree = "<group>"; };
+		C126AC67218351D700BEF65C /* SecondMVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMVCViewController.swift; sourceTree = "<group>"; };
+		C126AC68218351D700BEF65C /* SecondMVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMVCView.swift; sourceTree = "<group>"; };
+		C126AC69218351D700BEF65C /* SecondMVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMVCModel.swift; sourceTree = "<group>"; };
+		C126AC6A218351D700BEF65C /* SecondMVCModelInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMVCModelInput.swift; sourceTree = "<group>"; };
+		C126AC6B218351D700BEF65C /* SecondMVCModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMVCModuleConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,53 @@
 		C126AC0A2183476000BEF65C /* swiftapp */ = {
 			isa = PBXGroup;
 			children = (
+				C126AC512183513300BEF65C /* Modules */,
 				C126AC0B2183476000BEF65C /* AppDelegate.swift */,
-				C126AC0D2183476000BEF65C /* ViewController.swift */,
 				C126AC0F2183476000BEF65C /* Main.storyboard */,
 				C126AC122183476100BEF65C /* Assets.xcassets */,
 				C126AC142183476100BEF65C /* LaunchScreen.storyboard */,
 				C126AC172183476100BEF65C /* Info.plist */,
 			);
 			path = swiftapp;
+			sourceTree = "<group>";
+		};
+		C126AC512183513300BEF65C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C126AC522183515000BEF65C /* First MVC model */,
+				C126AC63218351AC00BEF65C /* Second MVC model */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C126AC522183515000BEF65C /* First MVC model */ = {
+			isa = PBXGroup;
+			children = (
+				C126AC532183517300BEF65C /* FirstMVCModelOutput.swift */,
+				C126AC542183517300BEF65C /* FirstMVCViewControllerInput.swift */,
+				C126AC552183517300BEF65C /* FirstMVCModuleInitializer.swift */,
+				C126AC562183517300BEF65C /* FirstMVCViewController.swift */,
+				C126AC572183517300BEF65C /* FirstMVCView.swift */,
+				C126AC582183517300BEF65C /* FirstMVCModel.swift */,
+				C126AC592183517300BEF65C /* FirstMVCModelInput.swift */,
+				C126AC5A2183517300BEF65C /* FirstMVCModuleConfigurator.swift */,
+			);
+			path = "First MVC model";
+			sourceTree = "<group>";
+		};
+		C126AC63218351AC00BEF65C /* Second MVC model */ = {
+			isa = PBXGroup;
+			children = (
+				C126AC64218351D700BEF65C /* SecondMVCModelOutput.swift */,
+				C126AC65218351D700BEF65C /* SecondMVCViewControllerInput.swift */,
+				C126AC66218351D700BEF65C /* SecondMVCModuleInitializer.swift */,
+				C126AC67218351D700BEF65C /* SecondMVCViewController.swift */,
+				C126AC68218351D700BEF65C /* SecondMVCView.swift */,
+				C126AC69218351D700BEF65C /* SecondMVCModel.swift */,
+				C126AC6A218351D700BEF65C /* SecondMVCModelInput.swift */,
+				C126AC6B218351D700BEF65C /* SecondMVCModuleConfigurator.swift */,
+			);
+			path = "Second MVC model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +204,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C126AC0E2183476000BEF65C /* ViewController.swift in Sources */,
+				C126AC71218351D700BEF65C /* SecondMVCModel.swift in Sources */,
+				C126AC6D218351D700BEF65C /* SecondMVCViewControllerInput.swift in Sources */,
+				C126AC5B2183517300BEF65C /* FirstMVCModelOutput.swift in Sources */,
+				C126AC5E2183517300BEF65C /* FirstMVCViewController.swift in Sources */,
+				C126AC70218351D700BEF65C /* SecondMVCView.swift in Sources */,
+				C126AC612183517300BEF65C /* FirstMVCModelInput.swift in Sources */,
+				C126AC622183517300BEF65C /* FirstMVCModuleConfigurator.swift in Sources */,
+				C126AC72218351D700BEF65C /* SecondMVCModelInput.swift in Sources */,
+				C126AC5C2183517300BEF65C /* FirstMVCViewControllerInput.swift in Sources */,
+				C126AC6C218351D700BEF65C /* SecondMVCModelOutput.swift in Sources */,
+				C126AC5D2183517300BEF65C /* FirstMVCModuleInitializer.swift in Sources */,
+				C126AC73218351D700BEF65C /* SecondMVCModuleConfigurator.swift in Sources */,
+				C126AC6F218351D700BEF65C /* SecondMVCViewController.swift in Sources */,
+				C126AC5F2183517300BEF65C /* FirstMVCView.swift in Sources */,
 				C126AC0C2183476000BEF65C /* AppDelegate.swift in Sources */,
+				C126AC6E218351D700BEF65C /* SecondMVCModuleInitializer.swift in Sources */,
+				C126AC602183517300BEF65C /* FirstMVCModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
