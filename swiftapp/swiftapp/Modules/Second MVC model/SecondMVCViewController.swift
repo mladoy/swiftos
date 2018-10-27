@@ -22,6 +22,7 @@ final class SecondMVCViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .green
     }
     
     override func viewWillAppear(_ animated: Bool) {
